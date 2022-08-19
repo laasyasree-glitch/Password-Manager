@@ -1,0 +1,44 @@
+* {
+  box-sizing: content-box;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3%;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  border: 1px solid black;
+  padding: 2%;
+  font-family: 'Roboto';
+  width: auto;
+}
+
+.stars {
+  width: 80%;
+}
+.delete {
+  background-color: transparent;
+  border: 0px;
+}
+@media screen and (max-width: 768px) {
+  .list {
+    width: 100%;
+  }
+}
+img {
+  width: 70%;
+}
+.content {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.pass {
+  color: #8a0710;
+}
+.add-on {
+  margin-bottom: 2%;
+}

@@ -1,0 +1,135 @@
+* {
+  margin: 0%;
+  box-sizing: content-box;
+}
+.image {
+  width: 70%;
+}
+.logo {
+  width: 30%;
+  margin: 1%;
+}
+.image-no {
+  width: 70%;
+}
+.button {
+  background-color: rgb(66, 95, 255);
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 1%;
+}
+.bg-container {
+  background-color: #9ba9eb;
+  min-height: 150vh;
+  max-width: 100vw;
+  background-size: cover;
+  margin: 0%;
+  padding: 2%;
+}
+.card {
+  background-color: #5763a5;
+  padding: 2%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.image-1 {
+  width: 12%;
+  margin: 1%;
+}
+.input {
+  padding: 0.5%;
+  font-size: 15px;
+  width: 100%;
+}
+.formCard {
+  background-color: #454f84;
+  padding: 3%;
+}
+
+.card-1 {
+  display: flex;
+  justify-content: center;
+  background-color: #f8fafc;
+  margin: 2%;
+}
+.display-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #5763a5;
+  padding: 2%;
+  margin: 2%;
+}
+.password-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.head {
+  color: #ffffff;
+  font-size: 30px;
+  margin-right: 0.5%;
+}
+.line {
+  background-color: #ffffff;
+  font-weight: 900;
+  width: 100%;
+}
+.show {
+  text-align: center;
+}
+.your-password {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+.count {
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 15px;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 5px;
+  margin-left: 2%;
+}
+.appointments-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointments-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .input {
+    padding: 2%;
+    font-size: 25px;
+  }
+  .password-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .show {
+    text-align: end;
+  }
+  .image-no {
+    width: 50%;
+  }
+}
